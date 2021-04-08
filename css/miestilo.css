@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color:rgb(248, 244, 192);
 }
 
 section{
@@ -27,19 +27,20 @@ section{
     font-size: 15px;
     line-height: 10px;
     text-decoration: none;
-    color: rgb(255,255,255);
+    color: rgb(0, 0, 0);
  }
  .menu-navegacion li ul a:hover{
-    color: rgb(220,220,220);
+    color: rgb(0, 0, 0);
  }
 
  .container{
     padding-top: 45px;
-    color:floralwhite;
+    color:rgb(0, 0, 0);
     height: 25vh;
     display: block;
  }
 
+ 
  .container h2{
      font-size: 40px;
      margin-left: 13%;
@@ -51,20 +52,6 @@ section{
      margin-right: 13%;
  }
 
- .general{
-     flex-flow: column;
-     width: 80%;
- }
+
  
- .amarillo{
-     background-color:yellow;
- }
- .rojo{
-     background-color: red;
- }
- .naranjo{
-     background-color: orange;
- }
- .celeste{
-     background-color:cyan;
- }
+ 
