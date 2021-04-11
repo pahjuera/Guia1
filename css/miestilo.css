@@ -6,7 +6,11 @@
 }
 
 body{
-    background-color:rgb(248, 244, 192);
+    background-color:rgb(255, 228, 177);
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 section{
@@ -40,18 +44,37 @@ section{
     display: block;
  }
 
- 
+ .nosotros{
+   border: 1px solid rgb(0,0,0);
+   display:block;
+   width:80%;
+   height: 30vh;
+   position: absolute;
+   background-color: rgb(255, 255, 255);
+   list-style: none;
+ }
  .container h2{
      font-size: 40px;
      margin-left: 13%;
      margin-right: 13%;
  }
- .container p{
-     font-size: 25px;
-     margin-left: 13%;
-     margin-right: 13%;
- }
-
 
  
+ .card {
+  height: 60vh;
+}
+
+.footer{
+  
+  width: 100%;
+  height: 30px;
+  bottom:0;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
  
+  position: relative;
+}
